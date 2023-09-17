@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Lato;
+}
+
+.container {
+  width: 1380px;
+  margin: 0 auto;
+}
+
+.choise__menu {
+  justify-content: center;
+}
+
+.header {
+  padding: 16px 0;
+}
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.header__menu {
+  display: flex;
+}
+.header__menu p {
+  margin-right: 40px;
+  padding: 10px;
+}
+.header__menu p:last-child {
+  margin-right: 0px;
+}
+.header__sign {
+  display: flex;
+}
+.header__sign p {
+  margin-right: 10px;
+  padding: 13px 50px;
+}
+.header__sign p:last-child {
+  color: azure;
+  margin-right: 0px;
+  background-color: #01996D;
+  background-size: 50px;
+  border-radius: 5px;
+}
+
+.main {
+  display: flex;
+  background: url("../img/girl.png");
+}
+.main__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 175px 0 336px 0;
+}
+.main__title {
+  margin-bottom: 10px;
+  color: #01996D;
+  font-size: 65px;
+  width: 440px;
+}
+.main__description {
+  margin-bottom: 50px;
+  width: 420px;
+  font-size: 20px;
+}
+.main__button {
+  color: aliceblue;
+  background-color: #01996D;
+  padding: 20px 50px;
+}
+
+.main__slide {
+  display: flex;
+  background: url("../img/");
+}
+
+.slide__row {
+  display: flex;
+  margin-top: 60px;
+}
+
+.slide__title {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.main__pic2 {
+  margin-bottom: 10;
+  margin-top: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.slide__title_machine::before {
+  content: "";
+  display: block;
+  width: 145px;
+  height: 84px;
+  background: url("../img/01.png") no-repeat center center/cover;
+  margin-bottom: -35px;
+  margin-left: 51px;
+}
+
+.slide__title_book::before {
+  content: "";
+  display: block;
+  width: 145px;
+  height: 84px;
+  background: url("../img/02.png") no-repeat center center/cover;
+  margin-left: 51x;
+}
+
+.slide__title_person::before {
+  content: "";
+  display: block;
+  width: 145px;
+  height: 84px;
+  background: url("../img/03.png") no-repeat center center/cover;
+  margin-bottom: -35px;
+  margin-left: 51px;
+}
